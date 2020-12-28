@@ -61,6 +61,7 @@ resnet = InceptionResnetV1(pretrained='vggface2').eval().to(device)
 
 cap = cv2.VideoCapture(0)
 
+## change path to your photo
 anchor_photo = "FaceRecognition_dataset/osym/mert_yazan.jpg"
 
 img2 = cv2.imread(anchor_photo)
