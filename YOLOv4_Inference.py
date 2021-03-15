@@ -1,8 +1,6 @@
 
 import cv2
 import numpy as np 
-import argparse
-import time
 
 
 def start_webcam():
